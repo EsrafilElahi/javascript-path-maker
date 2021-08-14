@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>URL-Generator</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <div id="result"></div>
+
+  <div class="container">
+
+    <div class="col">
+      <h2>Params</h2>
+      <div id="params-container">
+        <div class="key-value-box">
+          <input class="q-input" placeholder="Param" />
+        </div>
+      </div>
+      <button id="generate-param">Add New Param</button>
+    </div>
+
+    <div class="col">
+      <h2>Queries</h2>
+      <div id="queries-container">
+        <div class="key-value-box">
+          <input class="q-input" placeholder="Query Key" />
+          <input class="q-input" placeholder="Query Value" />
+        </div>
+      </div>
+      <button id="generate-query">Add New Query</button>
+    </div>
+
+  </div>
+
+  <div class="btn-generate">
+    <button id="generate-url">Generate URL</button>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
